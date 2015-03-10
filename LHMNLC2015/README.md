@@ -3,7 +3,7 @@ Modeling of a fluid-structure coupled system using port-Hamiltonian formulation
 
 Partial numerical results from our research of port-Hamiltonian systems are presented here.
 These results were obtained using the method proposed in our paper submitted to 
-IFAC workshop LHMNLC 2015.
+IFAC workshop LHMNLC 2015. This project is part of [ANR HAMECMOPSYS](https://hamecmopsys.ens2m.fr/).
 
 All the main functions are in the folder `.\main\`. The following functions implement 
 each of the subsystems using the port-Hamiltonian formulation presented in the
@@ -187,7 +187,7 @@ The following mode is an example of symmetric one:
 ![Symmetric mode](./results/modesym.gif)
 
 Finally, the code can be used for simulation. The following animated GIF shows an example
-of simulation. The beam starts in a deformed condition and it is then released:
+of simulation. The beam starts at a deformed condition and it is then released:
 
 ![Simulation](./results/simulation.gif)
 
